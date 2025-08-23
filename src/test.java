@@ -19,9 +19,9 @@ public class test {
             после чего завершается программа
              */
             }else {
-                System.out.println("Слыш Пидор, ты кто такой");
+                System.out.println("Похоже, что Вы ранее не были зарегестророваны, введите свое имя ");
                 String name = scanner.nextLine();
-                System.out.println("ну и пошел на хуй " + name);
+                System.out.println("Здравсвуйсте " + name + "Мы рады что вы выбрали нас");
         }
     }
 }

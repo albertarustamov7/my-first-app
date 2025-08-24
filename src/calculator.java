@@ -11,6 +11,12 @@ public class calculator {
         System.out.println("Выберите действие");
         String char1 = scanner.next();
         // логические выражения
+        /*
+        логическое выражение с применением сравнения equals
+        equals применяется для срвнения строк, когда нужно сравнить String
+        (login.equals(Пользователь1)) в резульатате чего в случае когда выражение true
+        после выполнения услвоия выполнится блок логической оперции
+         */
             if(char1 .equals("+")){
                 System.out.println(number1+number2);
             }else if (char1 .equals("-")) {

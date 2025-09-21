@@ -1,12 +1,13 @@
 // Класс — шаблон
 public class Car {
     // Состояние (поля)
-    String brand;
-    int year;
+    static String brand;
+    static int year;
 
     // Поведение (методы)
-    void startEngine() {
-        System.out.println(brand + " engine started.");
+   static void startEngine() {
+
+        System.out.println(Car.brand + " engine started.");
     }
 }
 
